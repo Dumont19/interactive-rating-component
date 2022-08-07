@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  background: hsl(216deg, 12%, 8%);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-rating h1 {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.1rem;
+}
+.container-rating p {
+  color: hsl(217deg, 12%, 63%);
+  line-height: 1.7rem;
+  font-size: 1.1rem;
+  margin-bottom: 2.2rem;
+}
+.container-rating .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsla(216deg, 12%, 54%, 0.1);
+  width: 55px;
+  height: 56px;
+  border-radius: 50%;
+  margin-bottom: 1.6rem;
+}
+
+.content-card {
+  display: flex;
+  flex-direction: column;
+  background: hsla(213deg, 19%, 18%, 0.7);
+  max-width: 500px;
+  padding: 2.2rem;
+  border-radius: 1.2rem;
+}
+
+.rate-numbers {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+button {
+  background: hsla(216deg, 12%, 54%, 0.1);
+  width: 55px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  color: hsl(216deg, 12%, 54%);
+  font-size: 1.1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.45s ease-out;
+}
+button:hover {
+  background: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.btn-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: hsl(25deg, 97%, 53%);
+  border: none;
+  padding: 1.2rem;
+  border-radius: 20rem;
+  margin-bottom: 0.5rem;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+.btn-submit:hover {
+  background: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
+
+.container-state {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 500px;
+  background: hsla(213deg, 19%, 18%, 0.7);
+  padding: 3.5em 2.2rem;
+  border-radius: 1.2rem;
+}
+.container-state h2 {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+.container-state p {
+  color: hsl(216deg, 12%, 54%);
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+.container-state img {
+  margin-bottom: 2rem;
+  width: 182px;
+  height: 128px;
+}
+.container-state .rating-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsla(216deg, 12%, 54%, 0.1);
+  color: hsl(25deg, 97%, 53%);
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  padding: 0.5rem 1.2rem;
+  margin-bottom: 2rem;
+}
+.container-state .rating-message p {
+  color: hsl(25deg, 97%, 53%);
+}
+
+/*# sourceMappingURL=style.css.map */
